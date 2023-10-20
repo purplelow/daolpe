@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const Live: NextPage = () => {
   return (
-    <Layout title="portfolio">
-      <div className=" space-y-4 divide-y-[1px]">Portfolio</div>
+    <Layout title="leadership">
+      <div className=" space-y-4 divide-y-[1px]">Leadership</div>
     </Layout>
   );
 };
