@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header({ placeholder }: any) {
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-3 justify-end bg-black bg-opacity-50 p-3 py-1 shadow-md md:px-6 md:py-3">
+    <header className="sticky top-0 z-50 grid grid-cols-3 justify-end bg-black bg-opacity-30 px-3 py-1 shadow-md md:px-6 md:py-4">
       {/* Left - Logo */}
       <div
         // onClick={() => router.push("/")}
@@ -18,6 +18,7 @@ export default function Header({ placeholder }: any) {
           className="object-contain object-left"
           sizes="100%"
         />
+        {/* <span className="bolder text-2xl text-white">다올프라이빗에쿼티</span> */}
       </div>
 
       <div />
@@ -25,13 +26,13 @@ export default function Header({ placeholder }: any) {
       {/* Right */}
       <div className="flex items-center justify-end space-x-14 text-gray-500">
         {/* <p className="hidden md:inline">Become a host</p> */}
-        <Link href={"/app/company"} className="text-white">
+        <Link href={"/company"} className="text-white">
           Company
         </Link>
-        <Link href={"/app/company"} className="text-white">
+        <Link href={"/portfolio"} className="text-white">
           Portfolio
         </Link>
-        <Link href={"/app/company"} className="text-white">
+        <Link href={"/leadership"} className="text-white">
           Leadership
         </Link>
       </div>
