@@ -26,6 +26,9 @@ export default function Header({ placeholder }: any) {
       {/* Right */}
       <div className="flex items-center justify-end space-x-14 text-gray-500">
         {/* <p className="hidden md:inline">Become a host</p> */}
+        <Link href={"/"} className="text-white">
+          Home
+        </Link>
         <Link href={"/company"} className="text-white">
           Company
         </Link>
