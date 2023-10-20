@@ -1,25 +1,23 @@
-This is a [Next.js](https://nextjs.org/) v13 project with tailwind css.
+# DAOL private equity
 
-## Getting Started
+## Information
 
-First, run the development server:
+다올프라이빗에쿼티 기업 웹사이트
 
-```bash
-yarn dev
-```
+### 기술 스택
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next.js, React, typescript, Recoil
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+UI Framework - Tailwind css
 
-## About
+## etc
 
-JS Creation Market platform
+#### Monitoring
 
-## Deploy on Vercel
+###### kibana
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+###### grafana
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Build & Deploy
