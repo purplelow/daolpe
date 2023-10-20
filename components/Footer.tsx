@@ -1,6 +1,7 @@
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 gap-y-10 bg-gray-100 px-32 py-14 md:grid-cols-4">
+    // <div className="absolute bottom-0 w-full">
+    <div className="relative z-50 grid grid-cols-1 gap-y-10 bg-gray-100 px-32 py-14 md:grid-cols-4">
       <div className="space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">ABOUT</h5>
         <p>How JSbnb works</p>
@@ -20,7 +21,7 @@ export default function Footer() {
       </div>
 
       <div className="space-y-4 text-xs text-gray-800">
-        <h5 className="font-bold">HOST</h5>
+        <h5 className="bolder">HOST</h5>
         <p>Papa React</p>
         <p>Presents</p>
         <p>Zero to FUll Stack Hero</p>
@@ -37,5 +38,6 @@ export default function Footer() {
         <p>For the Win</p>
       </div>
     </div>
+    // </div>
   );
 }
