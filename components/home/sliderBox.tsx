@@ -1,6 +1,6 @@
 export default function SliderBox() {
   return (
-    <div className="absolute bottom-[15%] left-[5%] z-50 w-1/3 bg-[#e0e0e0] px-10 py-8 opacity-90">
+    <div className="absolute bottom-[15%] z-50 bg-[#e0e0e0] px-10 py-8 opacity-90 lg:left-[5%] lg:w-1/3">
       <h4 className="bolder">C O M P A N Y</h4>
       <h2 className="py-4 text-2xl">차별화된 하우스 역량</h2>
       <p>

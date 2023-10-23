@@ -32,6 +32,11 @@
   font-weight: 300;
 }
 
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 /* loading block */
 .loaderBlock {
   width: 16px;
