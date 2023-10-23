@@ -37,7 +37,7 @@ export default function Header({ placeholder }: any) {
   });
 
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-2 justify-end px-3 py-1 md:px-12 md:py-8">
+    <header className="sticky top-0 z-50 grid grid-cols-2 justify-end px-3 py-1 md:px-10 md:py-6">
       {/* Left - Logo */}
       <div
         // onClick={() => router.push("/")}
@@ -45,7 +45,7 @@ export default function Header({ placeholder }: any) {
       >
         <Link className="z-50 block" href={"/"}>
           <Image
-            src="/assets/logo_white_kor.png"
+            src="/assets/logo_white.png"
             alt="다올 프라이빗에쿼티"
             fill
             className="object-contain object-left py-1"
@@ -70,10 +70,10 @@ export default function Header({ placeholder }: any) {
           }  top-0 z-40 h-full w-[280px] bg-white bg-opacity-90 transition-all ease-in`}
         >
           <div className="grid h-full grid-cols-1 grid-rows-2 items-center justify-end">
-            <ul className="bolder space-y-8 pt-32 text-center text-2xl text-[#222222]">
+            <ul className="bolder space-y-8 pl-16 pt-32 text-left text-2xl text-[#222222]">
               <li>
                 <Link className="block py-2" href={"/"}>
-                  Home
+                  Main
                 </Link>
               </li>
               <li>
@@ -93,7 +93,7 @@ export default function Header({ placeholder }: any) {
               </li>
             </ul>
             <div className="flex h-full flex-col flex-wrap items-center justify-end pb-4">
-              <span className="px-4 text-center text-sm">
+              <span className="px-4 text-center text-[10px]">
                 COPYRIGHT© <br />
                 DAOL Private Equity ALL RIGHTS RESERVED.
               </span>
