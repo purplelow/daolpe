@@ -5,7 +5,7 @@ import SliderBox from "@/components/home/sliderBox";
 const Home: NextPage = () => {
   return (
     <Layout title="홈">
-      <div className="absolute top-0 h-full w-full bg-[url('/assets/main_bg_b.jpeg')] bg-cover">
+      <div className="absolute top-0 h-full w-full bg-[url('/assets/main_bg_b.jpeg')] bg-cover bg-center">
         {/* <div className="fixed z-10 h-screen w-screen bg-black bg-opacity-50"></div> */}
         <section className=""> </section>
         <SliderBox />
