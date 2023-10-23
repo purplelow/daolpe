@@ -65,7 +65,9 @@ export default function Header({ placeholder }: any) {
 
         <div
           ref={side}
-          className={`fixed -right-[${xPosition}px] top-0 z-40 h-full w-[280px] bg-white bg-opacity-90  transition-all ease-in`}
+          className={`fixed ${
+            isOpen ? "right-0" : "-right-[280px]"
+          }  top-0 z-40 h-full w-[280px] bg-white bg-opacity-90 transition-all ease-in`}
         >
           <ul className="bolder m-auto space-y-8 px-10 pt-32 text-2xl text-[#333]">
             <li>
