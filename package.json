@@ -25,7 +25,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-loading-icons": "^1.1.0",
+    "react-slideshow-image": "^4.3.0",
     "sass": "^1.68.0",
+    "swiper": "^10.3.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   },
@@ -33,7 +35,6 @@
     "@types/parallax-js": "^3.1.0",
     "@types/react-burger-menu": "^2.8.5",
     "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.4",
-    "prisma": "^5.3.1"
+    "prettier-plugin-tailwindcss": "^0.5.4"
   }
 }

@@ -145,7 +145,7 @@ body {
   font-size: 48px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #ff9d87;
+  color: #1d2472;
   position: relative;
 }
 .loaderTxt::before {
@@ -156,7 +156,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 5px solid #ffedc0;
+  border: 5px solid #d0d4ff;
   border-bottom-color: #8077ea;
   box-sizing: border-box;
   animation: rotationTxt 0.6s linear infinite;
